@@ -26,7 +26,7 @@ app.use("/api/categories", categoryRoutes);
 
 /* MongoDB connection */
 mongoose.connect(
-  "mongodb+srv://amanvermame786:amanvermame786@cluster0.5xogbei.mongodb.net/library?retryWrites=true&w=majority&appName=Cluster0",
+  "",
   {
     useCreateIndex: true,
     useNewUrlParser: true,
